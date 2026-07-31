@@ -1,0 +1,5 @@
+# A private, single-user utility. There is no public content to index: the UI
+# is a client-only Vue island and every data route requires auth.
+# See docs/architecture.md -> "Search engines".
+User-agent: *
+Disallow: /

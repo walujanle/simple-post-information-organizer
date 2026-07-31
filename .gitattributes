@@ -1,0 +1,9 @@
+# Normalise line endings so Biome's `lineEnding: "lf"` rule holds on every OS.
+# See docs/MAINTENANCE.md -> "Line endings".
+* text=auto eol=lf
+
+# Binary assets must never be normalised.
+*.png binary
+*.ico binary
+*.sqlite binary
+*.db binary
